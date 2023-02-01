@@ -1,0 +1,230 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app .down-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 5vh;
+  transform: translateX(-50%);
+  -webkit-animation-name: down-arrow;
+          animation-name: down-arrow;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition: all 0.25s ease-in-out;
+  width: 100%;
+  cursor: pointer;
+}
+.app .down-arrow:hover {
+  opacity: 0.6;
+}
+.app .red-background {
+  background-color: #FF0032;
+  height: 25vh;
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  opacity: 0.6;
+}
+.app .purple-background {
+  background-color: #6F1AB6;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+}
+.app .navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app .navbar img {
+  height: 5rem;
+}
+.app .navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 5vw;
+}
+.app .navbar ul li {
+  transition: all 0.25s ease-in-out;
+}
+.app .navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.app .navbar ul li:hover {
+  scale: 1.2;
+}
+.app .hero {
+  height: 100vh;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  padding: 1rem;
+  background-image: url("../assets/foto skolah.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+.app .hero .hero-text {
+  position: absolute;
+  top: 30vh;
+  text-align: center;
+}
+.app .hero .hero-text p {
+  color: #FFE7CC;
+  opacity: 0.8;
+}
+.app .hero .hero-text h1 {
+  color: #FFFBEB;
+  font-size: 4rem;
+}
+.app .hero .hero-text h2 {
+  color: #FFE7CC;
+  opacity: 0.8;
+}
+.app .information div {
+  padding: 1rem;
+  font-family: "Lato", sans-serif;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.app .information div h3 {
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: center;
+}
+.app .information div p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+.app .information div hr {
+  border-style: solid;
+}
+.app .information .visi {
+  background-color: #FFE7CC;
+}
+.app .information .misi {
+  background-color: #FFFBEB;
+}
+.app .members {
+  display: flex;
+  justify-content: center;
+  padding: 1vh;
+  font-family: "Lato", sans-serif;
+  color: #FFE7CC;
+  height: 25vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+  background-image: url("../assets/foto osis.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.app .members .members-content {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.app .members button {
+  width: 50vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.app .members button:hover {
+  border-radius: 12px;
+  scale: 1.1;
+}
+.app .tata-ibadah {
+  font-family: "Lato", sans-serif;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  background-color: #6F1AB6;
+  color: #FFE7CC;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.app .tata-ibadah button {
+  width: 50vw;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+.app .tata-ibadah button:hover {
+  border-radius: 12px;
+  scale: 1.1;
+}
+.app footer {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  color: #FFE7CC;
+  padding: 2.5rem;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.app footer .navigations ul {
+  list-style: none;
+}
+.app footer .navigations ul li {
+  padding: 0.5rem 0;
+}
+.app footer .navigations ul li a {
+  font-size: 1.5rem;
+  color: #FFE7CC;
+  text-decoration: none;
+}
+.app footer .navigations ul li a:hover {
+  text-decoration: underline;
+}
+.app footer .map .map-content {
+  width: 100%;
+  height: 75vh;
+}
+
+@-webkit-keyframes down-arrow {
+  to {
+    margin-bottom: 0.5vh;
+  }
+}
+
+@keyframes down-arrow {
+  to {
+    margin-bottom: 0.5vh;
+  }
+}/*# sourceMappingURL=general.css.map */
