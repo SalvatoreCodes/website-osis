@@ -361,11 +361,13 @@ body {
   }
 
   .programs-page {
+
     ul {
       padding: 1rem;
       display: flex;
       flex-direction: column;
       li {
+        padding: .5rem 0;
         list-style: none;
         button {
           width: 100%;
@@ -418,6 +420,23 @@ body {
           line-height: 1.5rem;
         }
       }
+    }
+  }
+
+  .tata-ibadah-pplg {
+    padding: 1rem;
+    white-space: pre-line;
+
+    p {
+      padding-top: 1rem;
+    }
+
+    h3 {
+      padding-top: 1rem;
+    }
+
+    h4 {
+      padding-top: 1rem;
     }
   }
 }

@@ -12,6 +12,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import MembersPage from './pages/MembersPage'
 import ProgramsPage from './pages/ProgramsPage'
 import LaguBahasaInggrisPage from './pages/LaguBahasaInggrisPage'
+import TataIbadahPPLG from './pages/TataIbadahPPLG'
 
 function App() {
   const clickScrollHandler = () => {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/members' element={<MembersPage />}/>
         <Route path='/programs' element={<ProgramsPage />}/>
         <Route path='/programs/lagu-bahasa-inggris' element={<LaguBahasaInggrisPage />}/>
+        <Route path='/programs/tata-ibadah-3-feb-2023' element={<TataIbadahPPLG />}/>
       </Routes>
       <FooterComponent />
     </div>
