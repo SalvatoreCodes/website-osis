@@ -30,14 +30,14 @@ body {
 }
 .app .red-background {
   background-color: #FF0032;
-  height: 25vh;
+  height: 25.1vh;
   position: absolute;
-  top: 150vh;
+  top: 139.8vh;
   width: 100%;
   opacity: 0.6;
 }
 .app .purple-background {
-  background-color: #6F1AB6;
+  background: linear-gradient(#6F1AB6, #3D1766);
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -104,47 +104,65 @@ body {
   color: #FFE7CC;
   opacity: 0.8;
 }
-.app .information div {
+.app .information {
+  background-color: #FFFBEB;
+  opacity: 0.8;
+  background-image: radial-gradient(#FFE7CC 1.8px, #FFFBEB 1.8px);
+  background-size: 36px 36px;
   padding: 1rem;
+  -webkit-animation: information infinite 5s ease-in-out;
+          animation: information infinite 5s ease-in-out;
+}
+.app .information div {
   font-family: "Lato", sans-serif;
-  height: 25vh;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+}
+.app .information div div {
+  height: 2px;
+  width: 5rem;
+  background-color: black;
+  margin-bottom: 1rem;
 }
 .app .information div h3 {
-  display: flex;
   font-size: 2.5rem;
-  justify-content: center;
 }
 .app .information div p {
-  text-align: center;
   font-size: 1.25rem;
 }
-.app .information div hr {
+.app .information hr {
+  margin: 2rem 0;
+  background-color: black;
   border-style: solid;
 }
-.app .information .visi {
-  background-color: #FFE7CC;
-}
 .app .information .misi {
-  background-color: #FFFBEB;
+  display: flex;
+}
+.app .information .misi h3 {
+  text-align: end;
+}
+.app .information .misi div {
+  margin-left: auto;
+}
+.app .information .misi p {
+  text-align: end;
 }
 .app .members {
   display: flex;
   justify-content: center;
   padding: 1vh;
   font-family: "Lato", sans-serif;
-  color: #FFE7CC;
   height: 25vh;
   flex-direction: column;
   align-items: center;
   gap: 10%;
   background-image: url("../assets/foto osis.JPG");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color: #FFE7CC;
+  -webkit-animation: member 25s infinite;
+          animation: member 25s infinite;
 }
 .app .members .members-content {
   position: absolute;
@@ -155,23 +173,31 @@ body {
 }
 .app .members button {
   width: 50vw;
-  padding: 1rem;
+  padding: 0.5rem;
   border: none;
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
+  font-size: 1.5rem;
+}
+.app .members button a {
+  text-decoration: none;
+  color: black;
 }
 .app .members button:hover {
   border-radius: 12px;
   scale: 1.1;
 }
 .app .tata-ibadah {
+  background-color: #FFE7CC;
+  opacity: 0.8;
+  background-image: radial-gradient(#FFFBEB 1.8px, transparent 1.8px), radial-gradient(#FFFBEB 1.8px, #FFE7CC 1.8px);
+  background-size: 72px 72px;
+  background-position: 0 0, 36px 36px;
   font-family: "Lato", sans-serif;
   height: 25vh;
   display: flex;
   justify-content: center;
-  background-color: #6F1AB6;
-  color: #FFE7CC;
   padding: 1rem;
   flex-direction: column;
   align-items: center;
@@ -179,11 +205,16 @@ body {
 }
 .app .tata-ibadah button {
   width: 50vw;
-  padding: 1rem;
+  padding: 0.5rem;
   border: none;
   border-radius: 5px;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
+  font-size: 1.5rem;
+}
+.app .tata-ibadah a {
+  text-decoration: none;
+  color: black;
 }
 .app .tata-ibadah button:hover {
   border-radius: 12px;
@@ -216,6 +247,51 @@ body {
   width: 100%;
   height: 75vh;
 }
+.app .members-page {
+  display: flex;
+  flex-direction: column;
+}
+.app .members-page input {
+  margin: 2.5rem 2.5rem 0 2.5rem;
+  padding: 12px 18px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+}
+.app .members-page .members-container {
+  justify-content: center;
+  padding: 2.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.app .members-page .members-container .card {
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.3);
+}
+.app .members-page .members-container .card .card-profile img {
+  width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20rem;
+  border-radius: 16px 16px 0 0;
+  transition: all 0.25s ease-in-out;
+}
+.app .members-page .members-container .card .card-information {
+  padding: 0.5rem 1rem;
+}
+.app .members-page .members-container .card .card-information h1 {
+  font-family: "Lato", sans-serif;
+}
+.app .members-page .members-container .card:hover {
+  scale: 1.1;
+  border-radius: 32px;
+}
+.app .members-page .members-container .card:hover .card-profile img {
+  border-radius: 32px 32px 0 0;
+}
 
 @-webkit-keyframes down-arrow {
   to {
@@ -226,5 +302,21 @@ body {
 @keyframes down-arrow {
   to {
     margin-bottom: 0.5vh;
+  }
+}
+@-webkit-keyframes member {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+@keyframes member {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
   }
 }/*# sourceMappingURL=general.css.map */

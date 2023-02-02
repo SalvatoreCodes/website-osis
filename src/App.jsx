@@ -9,6 +9,7 @@ import FooterComponent from './components/FooterComponent'
 import Home from './pages/Home'
 
 import { Routes, Route, Link } from 'react-router-dom'
+import MembersPage from './pages/MembersPage'
 
 function App() {
   const clickScrollHandler = () => {
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <Routes>
         <Route path='/' element={<Home />}/>
+        <Route path='/members' element={<MembersPage />}/>
       </Routes>
       <FooterComponent />
     </div>
