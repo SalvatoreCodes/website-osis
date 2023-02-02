@@ -10,6 +10,8 @@ import Home from './pages/Home'
 
 import { Routes, Route, Link } from 'react-router-dom'
 import MembersPage from './pages/MembersPage'
+import ProgramsPage from './pages/ProgramsPage'
+import LaguBahasaInggrisPage from './pages/LaguBahasaInggrisPage'
 
 function App() {
   const clickScrollHandler = () => {
@@ -27,6 +29,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/members' element={<MembersPage />}/>
+        <Route path='/programs' element={<ProgramsPage />}/>
+        <Route path='/programs/lagu-bahasa-inggris' element={<LaguBahasaInggrisPage />}/>
       </Routes>
       <FooterComponent />
     </div>

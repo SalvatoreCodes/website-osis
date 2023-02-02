@@ -42,7 +42,7 @@ body {
     background-color: #FF0032;
     height: 25.1vh;
     position: absolute;
-    top: 139.8vh;
+    top: 162.5vh;
     width: 100%;
     opacity: .6;
   }
@@ -311,6 +311,10 @@ body {
       border-radius: 8px;
     }
 
+    input:focus {
+      outline: none;
+    }
+
     .members-container {
       justify-content: center;
       padding: 2.5rem 0;
@@ -352,6 +356,67 @@ body {
           img {
             border-radius: 32px 32px 0 0;
           }
+        }
+      }
+    }
+  }
+
+  .programs-page {
+    ul {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      li {
+        list-style: none;
+        button {
+          width: 100%;
+          padding: 1rem;
+          cursor: pointer;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .lagu-bahasa-inggris-page {
+    padding: 1rem;
+
+    input {
+      margin-bottom: 1rem;
+      padding: .5rem 1rem;
+      width: 100%;
+      background-color: lightgray;
+      border: none;
+      border-radius: 8px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .lagu-container {
+
+      .song {
+        background-color: lightgray;
+        padding: 1rem;
+        border-radius: 8px;
+
+        h1 {
+          color: #6F1AB6;
+        }
+
+        p {
+          color: #3D1766;
+        }
+
+        .song-lyric {
+          white-space: pre-line;
+          margin-top: 1rem;
+          line-height: 1.5rem;
         }
       }
     }

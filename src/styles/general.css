@@ -32,7 +32,7 @@ body {
   background-color: #FF0032;
   height: 25.1vh;
   position: absolute;
-  top: 139.8vh;
+  top: 162.5vh;
   width: 100%;
   opacity: 0.6;
 }
@@ -258,6 +258,9 @@ body {
   border: none;
   border-radius: 8px;
 }
+.app .members-page input:focus {
+  outline: none;
+}
 .app .members-page .members-container {
   justify-content: center;
   padding: 2.5rem 0;
@@ -291,6 +294,53 @@ body {
 }
 .app .members-page .members-container .card:hover .card-profile img {
   border-radius: 32px 32px 0 0;
+}
+.app .programs-page ul {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.app .programs-page ul li {
+  list-style: none;
+}
+.app .programs-page ul li button {
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+.app .programs-page ul li button a {
+  text-decoration: none;
+  color: black;
+}
+.app .lagu-bahasa-inggris-page {
+  padding: 1rem;
+}
+.app .lagu-bahasa-inggris-page input {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+}
+.app .lagu-bahasa-inggris-page input:focus {
+  outline: none;
+}
+.app .lagu-bahasa-inggris-page .lagu-container .song {
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.app .lagu-bahasa-inggris-page .lagu-container .song h1 {
+  color: #6F1AB6;
+}
+.app .lagu-bahasa-inggris-page .lagu-container .song p {
+  color: #3D1766;
+}
+.app .lagu-bahasa-inggris-page .lagu-container .song .song-lyric {
+  white-space: pre-line;
+  margin-top: 1rem;
+  line-height: 1.5rem;
 }
 
 @-webkit-keyframes down-arrow {
