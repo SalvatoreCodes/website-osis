@@ -32,7 +32,6 @@ function App() {
         <Route path='/members' element={<MembersPage />}/>
         <Route path='/programs' element={<ProgramsPage />}/>
         <Route path='/programs/lagu-bahasa-inggris' element={<LaguBahasaInggrisPage />}/>
-        <Route path='/programs/tata-ibadah-3-feb-2023' element={<TataIbadahPPLG />}/>
       </Routes>
       <FooterComponent />
     </div>
