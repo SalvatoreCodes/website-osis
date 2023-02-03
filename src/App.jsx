@@ -12,7 +12,6 @@ import { Routes, Route, Link } from 'react-router-dom'
 import MembersPage from './pages/MembersPage'
 import ProgramsPage from './pages/ProgramsPage'
 import LaguBahasaInggrisPage from './pages/LaguBahasaInggrisPage'
-import TataIbadahPPLG from './pages/TataIbadahPPLG'
 
 function App() {
   const clickScrollHandler = () => {
