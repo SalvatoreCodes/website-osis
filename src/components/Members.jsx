@@ -8,7 +8,7 @@ function Members() {
       <div className='red-background'></div>
       <div className='members-content'>
         <h1>Our Members</h1>
-        <button><Link to='/members'>Click Here!</Link></button>
+        <Link to='/members'><button>Click Here!</button></Link>
       </div>
     </div>
   )

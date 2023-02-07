@@ -6,7 +6,7 @@ function TataIbadah() {
   return (
     <div className='tata-ibadah'>
       <h1>Lagu Ibadah Bahasa Inggris</h1>
-      <button><Link to='/programs/lagu-bahasa-inggris'>Click Here!</Link></button>
+      <Link to='/programs/lagu-bahasa-inggris'><button>Click Here!</button></Link>
     </div>
   )
 }
