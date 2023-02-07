@@ -20,49 +20,49 @@ export const memberData = [
   {
     key: 2,
     profile: Vellycia,
-    name: 'Vellycia',
-    sekbid: 'Sekbid 4'
+    name: 'Vellycia Jaya',
+    sekbid: 'Wakil Ketua Osis'
   },
   {
     key: 3,
     profile: Maikel,
-    name: 'Maikel',
-    sekbid: 'Sekbid 4'
+    name: 'Michael Manuarfa',
+    sekbid: 'Wakil Bendahara OSIS'
   },
   {
     key: 4,
-    profile: Eca,
-    name: 'Kesya Posumah',
-    sekbid: 'Sekbid 6'
+    profile: Tessa,
+    name: 'Tesalonika Manopo',
+    sekbid: 'Sekbid 1'
   },
   {
     key: 5,
-    profile: Echi,
-    name: 'Kesyi Posumah',
-    sekbid: 'Sekbid 6'
+    profile: Agnes,
+    name: 'Agnes Toy',
+    sekbid: 'Sekbid 5'
   },
   {
     key: 6,
     profile: Grace,
     name: 'Grace',
-    sekbid: 'Sekbid 6'
+    sekbid: 'Sekbid 5'
   },
   {
     key: 7,
-    profile: Tessa,
-    name: 'Tessa',
+    profile: Eca,
+    name: 'Kesya Posumah',
     sekbid: 'Sekbid 6'
   },
   {
     key: 8,
-    profile: Putra,
-    name: 'Putra Goni',
+    profile: Echi,
+    name: 'Kesyi Posumah',
     sekbid: 'Sekbid 6'
   },
   {
     key: 9,
-    profile: Agnes,
-    name: 'Agnes Toy',
+    profile: Putra,
+    name: 'Putra Goni',
     sekbid: 'Sekbid 6'
   },
   {
