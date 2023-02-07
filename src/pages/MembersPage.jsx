@@ -7,11 +7,13 @@ import { memberData } from '../data'
 function MembersPage() {
   const [query, setQuery] = React.useState('')
 
+  const lowerCased = query.toLowerCase()
+
   return (
     <div className='members-page'>
       <input type="text" placeholder='Search...' className="search" onChange={e=>setQuery(e.target.value)}/>
       <div className='members-container'>
-        {memberData.filter(data=>data.name.toLowerCase().includes(query)).map((data) => (
+        {memberData.filter(data=>data.name.toLowerCase().includes(lowerCased)).map((data) => (
           <Card 
           key={data.key}
           profile={data.profile}
