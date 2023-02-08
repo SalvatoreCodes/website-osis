@@ -4,7 +4,6 @@ import { laguData } from '../laguData'
 
 function LaguBahasaInggrisPage() {
   const [query, setQuery] = React.useState('')
-
   const lowerCased = query.toLowerCase()
 
   return (

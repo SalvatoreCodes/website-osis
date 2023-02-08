@@ -206,6 +206,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  text-align: center;
 }
 .app .tata-ibadah button {
   width: 50vw;
