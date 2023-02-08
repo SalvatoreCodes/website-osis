@@ -234,6 +234,10 @@ body {
   justify-content: space-between;
   gap: 2.5rem;
 }
+.app footer p {
+  color: #555;
+  font-size: 1rem;
+}
 .app footer .navigations ul {
   list-style: none;
 }
