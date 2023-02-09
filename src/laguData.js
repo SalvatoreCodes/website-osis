@@ -1,8 +1,8 @@
 export const laguData = [
   {
     id: 1,
-    author: 'Chris Tomlin',
-    title: '1. How Great is our God',
+    author: "Chris Tomlin",
+    title: "1. How Great is our God",
     song: `The splendor of a King
     Clothed in majesty
     Let all the earth rejoice
@@ -17,8 +17,8 @@ export const laguData = [
   },
   {
     id: 2,
-    author: 'Charles Hutchinson',
-    title: '2. I Trust in God',
+    author: "Charles Hutchinson",
+    title: "2. I Trust in God",
     song: `I trust in God wherever i may be,
     Upon the land, or onthe rolling sea,
     For come what may, from day to day,
@@ -30,8 +30,8 @@ export const laguData = [
   },
   {
     id: 3,
-    author: 'Marilyn Sellars',
-    title: '3. One Day at a Time',
+    author: "Marilyn Sellars",
+    title: "3. One Day at a Time",
     song: `I'm only human, i'm just a man (woman)
     Help me believe in what i could be
     And all that i am.
@@ -49,8 +49,8 @@ export const laguData = [
   },
   {
     id: 4,
-    author: 'John Newton',
-    title: '4. Amazing Grace',
+    author: "John Newton",
+    title: "4. Amazing Grace",
     song: `Amazing Grace, how sweet the sound
     That saved a wretch like me!
     I once was lost, but now i'm foundd
@@ -58,8 +58,8 @@ export const laguData = [
   },
   {
     id: 5,
-    author: 'Paul Baloche and Lenny LeBlanc',
-    title: '5. Above All',
+    author: "Paul Baloche and Lenny LeBlanc",
+    title: "5. Above All",
     song: `Above all powers
     Above all kings
     Above all nature and all created things
@@ -84,8 +84,8 @@ export const laguData = [
   },
   {
     id: 6,
-    author: 'Frank M. Davis',
-    title: '6. You Raise Me Up',
+    author: "Frank M. Davis",
+    title: "6. You Raise Me Up",
     song: `Savior, lead me lest i stray,
     Gently lead me all the way,
     I am safe when by Thy side,
@@ -97,8 +97,8 @@ export const laguData = [
   },
   {
     id: 7,
-    author: 'Henry Van Dyke',
-    title: '7. Joyful, Joyful, we adore thee',
+    author: "Henry Van Dyke",
+    title: "7. Joyful, Joyful, we adore thee",
     song: `Joyful, joyful, we adore thee,
     God of glory, Lord of love;
     Hearts unfold like flow's before thee,
@@ -110,8 +110,8 @@ export const laguData = [
   },
   {
     id: 8,
-    author: 'RED MOUNTAIN',
-    title: '8. Pass me not, O gentle savior',
+    author: "RED MOUNTAIN",
+    title: "8. Pass me not, O gentle savior",
     song: `Pass me not, O gentle savior,
     Hear my humble cry;
     While on others thou art calling,
@@ -123,8 +123,8 @@ export const laguData = [
   },
   {
     id: 9,
-    author: 'Hillsong UNITED',
-    title: '9. Nothing but the blood',
+    author: "Hillsong UNITED",
+    title: "9. Nothing but the blood",
     song: `What can wash away my sin?
     Nothing but the blood of Jesus;
     What can make me whole again?
@@ -137,8 +137,8 @@ export const laguData = [
   },
   {
     id: 10,
-    author: 'Bible Truth Kids',
-    title: '10. Holy Bible, Book Divine',
+    author: "Bible Truth Kids",
+    title: "10. Holy Bible, Book Divine",
     song: `Holy bible, book divine,
     Precious treasure, thou art mine;
     Mine to tell whence i came;
@@ -146,8 +146,8 @@ export const laguData = [
   },
   {
     id: 11,
-    author: 'Audrey Assad',
-    title: '11. Holy, Holy, Holy',
+    author: "Audrey Assad",
+    title: "11. Holy, Holy, Holy",
     song: `Holy, holy, holy
     Lord, God almighty
     Early in the morning our song shall rise to thee
@@ -157,8 +157,8 @@ export const laguData = [
   },
   {
     id: 12,
-    author: 'Don Moen',
-    title: '12. Trust and Obey',
+    author: "Don Moen",
+    title: "12. Trust and Obey",
     song: `When we walk with the Lord in the light of his word,
     What a glory he sheds on our way!
     While we do his good will, he abides with us still,
@@ -169,8 +169,8 @@ export const laguData = [
   },
   {
     id: 13,
-    author: 'Charles H. Gabriel',
-    title: '13. If i have wounded',
+    author: "Charles H. Gabriel",
+    title: "13. If i have wounded",
     song: `If i have wounded any soul today
     If i have caused ones foot to go astray
     If i have walked in my own willful way
@@ -182,8 +182,8 @@ export const laguData = [
   },
   {
     id: 14,
-    author: 'Jim Hendricks',
-    title: '14. Bringing in the sheaves',
+    author: "Jim Hendricks",
+    title: "14. Bringing in the sheaves",
     song: `Sowing in the morning, sowing seeds of kindness,
     Sowing in the noontide and the dewy eve;
     Waiting for the harvest, and the time of reaping,
@@ -195,8 +195,8 @@ export const laguData = [
   },
   {
     id: 15,
-    author: 'Bill and Gloria Gaither',
-    title: '15. I love this family of God',
+    author: "Bill and Gloria Gaither",
+    title: "15. I love this family of God",
     song: `I love this family of God
     So closely knitted into one
     They've taken me into their heart
@@ -205,8 +205,8 @@ export const laguData = [
   },
   {
     id: 16,
-    author: 'Matt Redman and Steve Angrisano',
-    title: '16. 10,000 Reasons',
+    author: "Matt Redman and Steve Angrisano",
+    title: "16. 10,000 Reasons",
     song: `The sun comes up
     It's a new day dawning
     It's time to sing your song again
@@ -223,8 +223,8 @@ export const laguData = [
   },
   {
     id: 17,
-    author: 'Yehuda Singers',
-    title: '17. Singing Glory Praise the Lord',
+    author: "Yehuda Singers",
+    title: "17. Singing Glory Praise the Lord",
     song: `Singing glory praise the Lord, Hallelujah!
     Singing glory praise the Lord, Hallelujah!
     Singing glory praise the Lord, Hallelujah!
@@ -236,8 +236,8 @@ export const laguData = [
   },
   {
     id: 18,
-    author: 'Hillsong Worship',
-    title: '18. King of Majesty',
+    author: "Hillsong Worship",
+    title: "18. King of Majesty",
     song: `You know that i love you
     You know that i want to know you so much more
     More than i have before
@@ -253,8 +253,8 @@ export const laguData = [
   },
   {
     id: 19,
-    author: 'Henry Francis Lyte',
-    title: '19. Praise, My Soul, The king of Heaven',
+    author: "Henry Francis Lyte",
+    title: "19. Praise, My Soul, The king of Heaven",
     song: `Praise, my soul, the King of heaven,
     To the throne thy tribute bring;
     Ransomned, healed, restored, forgiven
@@ -264,8 +264,8 @@ export const laguData = [
   },
   {
     id: 20,
-    author: 'Jason Bucklin',
-    title: '20. Above the hills of time',
+    author: "Jason Bucklin",
+    title: "20. Above the hills of time",
     song: `Above the hills of time the cross is gleaming
     Fair as the sun when night has turned to day
     And from it love's pure light is richly streaming
@@ -279,8 +279,8 @@ export const laguData = [
   },
   {
     id: 21,
-    author: 'Unknown artist',
-    title: '21. Still',
+    author: "Unknown artist",
+    title: "21. Still",
     song: `Hide me now
     Under your wings
     Cover me
@@ -296,8 +296,8 @@ export const laguData = [
   },
   {
     id: 22,
-    author: 'Slim Whitman',
-    title: '22. Each step i take',
+    author: "Slim Whitman",
+    title: "22. Each step i take",
     song: `Each step i take, my saviour goes before me
     And with his loving hand, he leads the way
     And with each breath, i whisper i adore thee
@@ -310,8 +310,8 @@ export const laguData = [
   },
   {
     id: 23,
-    author: 'Tabernacle choir',
-    title: '23. Tell me the stories of Jesus',
+    author: "Tabernacle choir",
+    title: "23. Tell me the stories of Jesus",
     song: `Tell me the story of Jesus
     Write on my heart every word
     Tell me the story most precious
@@ -326,8 +326,8 @@ export const laguData = [
   },
   {
     id: 24,
-    author: 'Leonard Cohen',
-    title: '24. Hallelujah',
+    author: "Leonard Cohen",
+    title: "24. Hallelujah",
     song: `Now, I've heard there was a secret chord
     That David played, and it pleased the Lord
     But you don't really care for music, do ya?
@@ -342,8 +342,8 @@ export const laguData = [
   },
   {
     id: 25,
-    author: 'Hillsong Worship',
-    title: '25. Hossana',
+    author: "Hillsong Worship",
+    title: "25. Hossana",
     song: `I see the King of Glory
     Coming on the clouds with fire
     The whole earth shakes, the whole earth shakes, yeah
@@ -358,8 +358,8 @@ export const laguData = [
   },
   {
     id: 26,
-    author: 'The Beatles',
-    title: '26. Let it be',
+    author: "The Beatles",
+    title: "26. Let it be",
     song: `When I find myself in times of trouble, Mother Mary comes to me
     Speaking words of wisdom, let it be
     And in my hour of darkness she is standing right in front of me
@@ -370,8 +370,8 @@ export const laguData = [
   },
   {
     id: 27,
-    author: 'Carrie underwood',
-    title: '27. Jesus, Take the whell',
+    author: "Carrie underwood",
+    title: "27. Jesus, Take the whell",
     song: `She had a lot on her mind, and she didn't pay attention
     She was going way too fast
     Before she knew it, she was spinning on a thin black sheet of glass
@@ -390,8 +390,8 @@ export const laguData = [
   },
   {
     id: 28,
-    author: 'Hillsong Worship',
-    title: '28. I Surrender',
+    author: "Hillsong Worship",
+    title: "28. I Surrender",
     song: `Not Available`,
   },
-]
+];

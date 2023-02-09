@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,12 +17,9 @@ body {
   left: 50%;
   height: 5vh;
   transform: translateX(-50%);
-  -webkit-animation-name: down-arrow;
-          animation-name: down-arrow;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-name: down-arrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
   transition: all 0.25s ease-in-out;
   width: 100%;
   cursor: pointer;
@@ -28,15 +27,8 @@ body {
 .app .down-arrow:hover {
   opacity: 0.6;
 }
-.app .red-background {
-  background-color: #FF0032;
-  height: 25.1vh;
-  position: absolute;
-  width: 100%;
-  opacity: 0.6;
-}
 .app .purple-background {
-  background: linear-gradient(#6F1AB6, #3D1766);
+  background: linear-gradient(#6f1ab6, #3d1766);
   height: 100vh;
   width: 100%;
   position: absolute;
@@ -47,7 +39,6 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 1rem;
@@ -92,25 +83,22 @@ body {
   text-align: center;
 }
 .app .hero .hero-text p {
-  color: #FFE7CC;
+  color: #ffe7cc;
   opacity: 0.8;
 }
 .app .hero .hero-text h1 {
-  color: #FFFBEB;
+  color: #fffbeb;
   font-size: 4rem;
 }
 .app .hero .hero-text h2 {
-  color: #FFE7CC;
+  color: #ffe7cc;
   opacity: 0.8;
 }
 .app .information {
-  background-color: #FFFBEB;
-  opacity: 0.8;
-  background-image: radial-gradient(#FFE7CC 1.8px, #FFFBEB 1.8px);
+  background-image: radial-gradient(#ffe7cc 1.8px, #fffbeb 1.8px);
   background-size: 36px 36px;
   padding: 1rem;
-  -webkit-animation: information infinite 5s ease-in-out;
-          animation: information infinite 5s ease-in-out;
+  animation: information infinite 5s ease-in-out;
 }
 .app .information div {
   font-family: "Lato", sans-serif;
@@ -152,24 +140,17 @@ body {
   font-size: 1rem;
 }
 .app .members {
+  background-image: radial-gradient(#ffe7cc 1.8px, #fffbeb 1.8px);
+  background-size: 36px 36px;
   display: flex;
   justify-content: center;
-  padding: 1vh;
+  padding: 2.5vh;
   font-family: "Lato", sans-serif;
-  height: 25vh;
   flex-direction: column;
   align-items: center;
-  gap: 10%;
-  background-image: url("../assets/foto osis.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #FFE7CC;
-  -webkit-animation: member 25s infinite;
-          animation: member 25s infinite;
+  gap: 2rem;
 }
 .app .members .members-content {
-  position: absolute;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -183,6 +164,8 @@ body {
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   font-size: 1.5rem;
+  background-color: black;
+  color: white;
 }
 .app .members button a {
   text-decoration: none;
@@ -192,10 +175,17 @@ body {
   border-radius: 12px;
   scale: 1.1;
 }
+.app .members .members-carousel {
+  width: 100%;
+  height: 100%;
+}
+.app .members .members-carousel .member-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .app .tata-ibadah {
-  background-color: #FFE7CC;
-  opacity: 0.8;
-  background-image: radial-gradient(#FFFBEB 1.8px, transparent 1.8px), radial-gradient(#FFFBEB 1.8px, #FFE7CC 1.8px);
+  background-image: radial-gradient(#3d1766 1.8px, transparent 1.8px), radial-gradient(#3d1766 1.8px, #6f1ab6 1.8px);
   background-size: 72px 72px;
   background-position: 0 0, 36px 36px;
   font-family: "Lato", sans-serif;
@@ -206,6 +196,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  color: #ffe7cc;
   text-align: center;
 }
 .app .tata-ibadah button {
@@ -216,6 +207,7 @@ body {
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   font-size: 1.5rem;
+  background-color: #ffe7cc;
 }
 .app .tata-ibadah a {
   text-decoration: none;
@@ -229,7 +221,7 @@ body {
   background-color: #333;
   display: flex;
   flex-direction: column;
-  color: #FFE7CC;
+  color: #ffe7cc;
   padding: 2.5rem;
   justify-content: space-between;
   gap: 2.5rem;
@@ -246,7 +238,7 @@ body {
 }
 .app footer .navigations ul li a {
   font-size: 1.5rem;
-  color: #FFE7CC;
+  color: #ffe7cc;
   text-decoration: none;
 }
 .app footer .navigations ul li a:hover {
@@ -259,6 +251,8 @@ body {
 .app .members-page {
   display: flex;
   flex-direction: column;
+  background-image: radial-gradient(#ffe7cc 1.8px, #fffbeb 1.8px);
+  background-size: 36px 36px;
 }
 .app .members-page input {
   margin: 2.5rem 2.5rem 0 2.5rem;
@@ -308,6 +302,10 @@ body {
 .app .members-page .members-container .card:hover .card-profile img {
   border-radius: 32px 32px 0 0;
 }
+.app .programs-page {
+  background-image: radial-gradient(#ffe7cc 1.8px, #fffbeb 1.8px);
+  background-size: 36px 36px;
+}
 .app .programs-page ul {
   padding: 1rem;
   display: flex;
@@ -328,6 +326,8 @@ body {
 }
 .app .lagu-bahasa-inggris-page {
   padding: 1rem;
+  background-image: radial-gradient(#ffe7cc 1.8px, #fffbeb 1.8px);
+  background-size: 36px 36px;
 }
 .app .lagu-bahasa-inggris-page input {
   margin-bottom: 1rem;
@@ -347,10 +347,10 @@ body {
   margin: 1rem 0;
 }
 .app .lagu-bahasa-inggris-page .lagu-container .song h1 {
-  color: #6F1AB6;
+  color: #6f1ab6;
 }
 .app .lagu-bahasa-inggris-page .lagu-container .song p {
-  color: #3D1766;
+  color: #3d1766;
 }
 .app .lagu-bahasa-inggris-page .lagu-container .song .song-lyric {
   white-space: pre-line;
@@ -358,23 +358,9 @@ body {
   line-height: 1.5rem;
 }
 
-@-webkit-keyframes down-arrow {
-  to {
-    margin-bottom: 0.5vh;
-  }
-}
-
 @keyframes down-arrow {
   to {
     margin-bottom: 0.5vh;
-  }
-}
-@-webkit-keyframes member {
-  from {
-    background-position: left;
-  }
-  to {
-    background-position: right;
   }
 }
 @keyframes member {
