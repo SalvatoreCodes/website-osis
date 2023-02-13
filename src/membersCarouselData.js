@@ -1,5 +1,4 @@
 import osis55 from "./members/membersCarousel/osis55.jpg";
-import DSC_0240 from "./members/membersCarousel/DSC_0240.jpg";
 import DSC_0231 from "./members/membersCarousel/DSC_0231.jpg";
 import DSC_0227 from "./members/membersCarousel/DSC_0227.jpg";
 import DSC_0225 from "./members/membersCarousel/DSC_0225.jpg";
@@ -11,7 +10,7 @@ export const membersCarouselData = [
   },
   {
     id: 2,
-    image: DSC_0240,
+    image: osis55,
   },
   {
     id: 3,
